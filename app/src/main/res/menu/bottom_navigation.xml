@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/dashboardFragment"
+        android:icon="@drawable/ic_dashboard_gray_24dp"
+        android:title="Dashboard" />
+
+    <item
+        android:id="@+id/homeFragment"
+        android:icon="@drawable/ic_home_gray_24dp"
+        android:title="Inicio" />
+
+    <item
+        android:id="@+id/userFragment"
+        android:icon="@drawable/ic_user_gray_24dp"
+        android:title="Usuario" />
+
+</menu>

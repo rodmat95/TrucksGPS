@@ -1,0 +1,110 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.TrucksGPS" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/blue_200</item>
+        <item name="colorPrimaryVariant">@color/blue_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_500</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Background color -->
+        <item name="android:windowBackground">@color/white</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="EditTextInfo">
+        <item name="android:padding">3dp</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">@color/gray_darkest</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:enabled">false</item>
+    </style>
+
+    <style name="MaterialButtonAccept">
+        <item name="android:layout_height">55dp</item>
+        <item name="android:backgroundTint">@color/blue_200</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="cornerRadius">8dp</item>
+        <item name="android:padding">11dp</item>
+    </style>
+
+    <style name="MaterialButtonDisallow">
+        <item name="android:layout_height">55dp</item>
+        <item name="android:backgroundTint">@color/teal_200</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="cornerRadius">8dp</item>
+        <item name="android:padding">11dp</item>
+    </style>
+
+    <style name="BottomNavigation">
+        <item name="android:background">@color/gray_lightest</item>
+        <item name="itemIconTint">@color/gray_medium_dark</item>
+        <item name="itemTextColor">@color/gray_medium_dark</item>
+    </style>
+
+    <style name="CardViewButton">
+        <item name="cardCornerRadius">15dp</item>
+        <item name="android:clickable">true</item>
+        <item name="android:foreground">?android:attr/selectableItemBackground</item>
+        <item name="android:backgroundTint">?attr/colorPrimary</item>
+    </style>
+
+    <style name="CardViewMiniButton">
+        <item name="android:layout_marginEnd">8dp</item>
+        <item name="cardCornerRadius">5dp</item>
+        <item name="android:clickable">true</item>
+        <item name="android:foreground">?android:attr/selectableItemBackground</item>
+        <item name="android:backgroundTint">?attr/colorPrimary</item>
+    </style>
+
+    <style name="TabLayout">
+        <item name="android:background">@color/blue_700</item>
+        <item name="android:textColor">@color/gray_medium_dark</item>
+        <item name="tabSelectedTextColor">@color/blue_200</item>
+    </style>
+
+    <style name="ImageButtonDashboard">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:tint">@color/selector_icon_light</item>
+        <item name="android:padding">5dp</item>
+    </style>
+
+    <style name="DrawerHeader">
+        <item name="android:background">@color/blue_700</item>
+    </style>
+
+    <style name="roundedImageViewRounded">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <style name="linearLayoutBox">
+        <item name="android:background">@drawable/rounded_background_light</item>
+        <item name="android:paddingHorizontal">8dp</item>
+        <item name="android:radius">20dp</item>
+    </style>
+
+    <style name="relativeLayoutList">
+        <item name="android:background">@drawable/rounded_background_light</item>
+    </style>
+
+    <style name="cardViewUserImage">
+        <item name="android:backgroundTint">@color/gray_lightest</item>
+    </style>
+
+    <style name="imageViewButton">
+        <item name="android:tint">@color/gray_dark</item>
+    </style>
+
+    <style name="viewSeparator">
+        <item name="android:background">@color/gray_medium_light</item>
+    </style>
+
+    <style name="imageViewForgotPaswword">
+        <item name="android:tint">@color/gray_dark</item>
+    </style>
+</resources>

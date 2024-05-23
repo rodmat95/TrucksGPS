@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/group1">
+
+        <item
+            android:id="@+id/navOptn1"
+            android:icon="@drawable/ic_code_gray_24dp"
+            android:title="Establecer Sede" />
+
+        <item
+            android:id="@+id/navOptn2"
+            android:icon="@drawable/ic_code_gray_24dp"
+            android:title="Cambiar Iconos" />
+
+    </group>
+
+    <group
+        android:id="@+id/group2">
+
+        <item
+            android:id="@+id/navOptn3"
+            android:icon="@drawable/ic_code_gray_24dp"
+            android:title="Reporte de Incidencias" />
+
+        <item
+            android:id="@+id/navOptn4"
+            android:icon="@drawable/ic_code_gray_24dp"
+            android:title="Estadísticas y Reportes" />
+
+    </group>
+
+    <group
+        android:id="@+id/group3">
+
+        <item
+            android:id="@+id/navOptn5"
+            android:icon="@drawable/ic_user_gray_24dp"
+            android:title="Usuarios" />
+
+        <item
+            android:id="@+id/navOptn6"
+            android:icon="@drawable/ic_add_user_gray_24dp"
+            android:title="Nuevo usuario" />
+
+    </group>
+
+</menu>

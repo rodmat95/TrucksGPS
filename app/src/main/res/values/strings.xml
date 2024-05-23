@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">TrucksGPS</string>
+    <string name="hello_blank_fragment">Hola fragmento en blanco</string>
+
+    <!-- Roles -->
+    <string-array name="roles_array">
+        <item>Usuario</item>
+        <item>Administrador</item>
+    </string-array>
+    <string name="title_activity_prueba">prueba</string>
+</resources>
