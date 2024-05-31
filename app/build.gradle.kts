@@ -59,11 +59,11 @@ dependencies {
     implementation("com.google.firebase:firebase-database")
     implementation("com.google.firebase:firebase-messaging")
 
-    implementation("com.firebase:geofire-android:3.1.0")
+    implementation("com.firebase:geofire-android:3.2.0")
 
     // Dependencia de google maps
-    implementation("com.google.android.gms:play-services-maps:16.1.0")
-    implementation("com.google.android.gms:play-services-location:16.0.0")
+    implementation("com.google.android.gms:play-services-maps:18.2.0")
+    implementation("com.google.android.gms:play-services-location:21.2.0")
 
     // Recyclerview de AndroidX
     implementation("androidx.recyclerview:recyclerview") //1.3.2
